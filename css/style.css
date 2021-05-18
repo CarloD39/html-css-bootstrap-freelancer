@@ -1,0 +1,99 @@
+
+/*----- utility start----- */
+
+.align-center{
+    text-align: center;   
+ }
+
+/*----- utility finish------ */
+
+.container-fluid{
+    width: 100%;
+    height: 500vh;
+    max-width: 100%;
+    /* background-color: rgb(138, 17, 34); */
+}
+
+.container-top {
+    padding: 0;
+}
+
+.container-nav{
+    height: 80px;
+    background-color: rgb(23, 23, 63);
+}
+
+.container-logo{
+    background-color: aqua;
+    height: 400px;
+    padding-top: 50px;
+}
+
+.col-box-logo{
+    background-color: coral;
+}
+
+.esempio-quadrato{
+    width: 100px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.container-box{
+    background-color:burlywood;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid black;
+}
+
+.col-portofolio{
+    border: 1px solid black;
+    height: 200px;
+}
+
+.content-portifolio{
+    background-color: tomato;
+    height: 100%;
+}
+
+/* ---------- */
+.container-about{
+    background-color: aqua;
+    height: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-box-about{
+    background-color:burlywood;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.col-about {
+    border: 1px solid black;
+}
+
+/* --------- */
+
+.container-contact{
+    background-color: cornflowerblue;
+    height: 500px;
+    padding-top: 50px;
+}
+
+.container-box-contact{
+    background-color:burlywood;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.col-contact{
+    border-bottom: 1px solid black;
+    line-height: 30px;
+}
+
+.last-contact{
+    padding-bottom: 50px;
+}
