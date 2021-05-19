@@ -19,7 +19,7 @@
 }
 
 .container-nav{
-    height: 80px;
+    height: 70px;
     background-color: rgb(23, 23, 63);
 }
 
@@ -38,7 +38,7 @@
     height: 80px;
     border: 1px solid black;
 }
-
+/* ----------- */
 .container-box{
     background-color:burlywood;
     margin: 0 auto;
@@ -96,4 +96,18 @@
 
 .last-contact{
     padding-bottom: 50px;
+}
+/* ------- */
+
+.container-footer{
+    height: 150px;
+    background-color: rgb(32, 32, 80);
+    padding-top: 30px;
+}
+
+.container-information{
+    border: 1px solid white;
+    max-width: 1400px;
+    height: 100px;
+    color: white;
 }
