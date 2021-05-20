@@ -7,95 +7,157 @@
 
 /*----- utility finish------ */
 
-.container-top {
-    padding: 0;
+nav> div{
+    justify-content: flex-end;
 }
 
-.container-nav{
-    height: 70px;
-    background-color: rgb(23, 23, 63);
-}
-/* -------------------------------- */
-
-.container-logo{
-    background-color: aqua;
-    height: 400px;
-    padding-top: 50px;
+.form-inline{
+    display: inline-flex;
 }
 
-.container-heade{
-    border: 1px solid white;
+.bg-costum-color{
+    background-color: rgb(50, 50, 75);
 }
 
-.esempio-quadrato{
-    width: 100px;
-    height: 80px;
-    border: 1px solid black;
+.navbar .navbar-brand{
+    font-weight: bold;
 }
+
+.nav-link{
+    color: rgba(255,255,255,0.1);
+    font-weight: bold;
+}
+
+.collapse{
+    flex-grow: 0;
+}
+
+
+
+/* ---------------------- */
+.header-container{
+    background-color: rgb(12, 177, 155);
+    padding: 50px 0;
+    margin-top: 56px;
+    color: white;
+}
+
+
+
+.header-logo{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/avatar.svg);
+    background-size:auto;
+    background-position: center;
+    margin: 0 auto;
+}
+
+
 /* ----------- */
 .container-box{
-    background-color:burlywood;
+    /* background-color:burlywood; */
     padding-top: 50px;
     padding-bottom: 50px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .col-portofolio{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-bottom: 20px;
 }
 
-.content-portifolio{
-    background-color: tomato;
-    height: 240px;
+
+.content-portifolio img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
+
 
 /* ---------- */
 .container-about{
-    background-color: aqua;
+    background-color: rgb(12, 177, 155);
     padding: 50px;
+    color: white;
 }
 
-.container-box-about{
+.title-about{
+    padding-bottom: 10px;
+}
+
+.col-about-contact>button{
+    color: white;
+}
+
+/* .container-box-about{
     background-color:burlywood;
-}
+} */
 
-.col-about {
+/* .col-about {
     border: 1px solid black;
-}
+} */
 
 /* --------- */
 
 .container-contact{
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     padding: 50px;
 }
 
-.container-box-contact{
-    background-color:burlywood;
+
+.contact-form input{
+    border: 0;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 50px;
 }
 
-.col-contact{
-    border-bottom: 1px solid black;
-    line-height: 30px;
+textarea{
+    border: 0;
+    border-bottom: 2px solid gray;
+    width: 100%;
+    height: 150px;
 }
 
-.last-contact{
-    padding-bottom: 50px;
+.col-contact .btn-color {
+    background-color: rgb(12, 177, 155);
 }
 /* ------------------------ */
 
 .container-footer{
-    background-color: rgb(32, 32, 80);
-    padding-top: 30px;
+    background-color: rgb(42, 54, 109);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .container-information{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     color: white;
 }
+
+.col-information{
+    margin-bottom: 20px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.col-information .circle-icon{
+    width: 50px;
+    border: 1px solid white;
+    line-height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;   
+}
+
 /* ---------------- */
 .container-copyright{
-    background-color: rgb(64, 64, 148);
-    height: 70px;
+    background-color: rgb(50, 50, 75);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
 }
